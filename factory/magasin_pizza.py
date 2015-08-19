@@ -3,8 +3,8 @@
 from pizza_factory import PizzaFactory
 
 
-class MagasinPizza(object):
-    """ Un magasin de pizza qui pérapre des pizzas peu importe le type
+class MagasinPizza:
+    """ Un magasin de pizza qui prépare des pizzas peu importe le type
 
     Il se fournit en pizza à l'aide d'une factory qui se charge de
     l'instanciation de la bonne pizza en fonction de ce que le client demande.

@@ -4,7 +4,7 @@ from pizzas import PizzaVegetarienne
 from pizzas import PizzaFromage
 
 
-class PizzaFactory(object):
+class PizzaFactory:
 
     def obtenir(self, type_pizza):
         """Implémentation du patron méthode factory.

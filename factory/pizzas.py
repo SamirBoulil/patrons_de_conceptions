@@ -5,7 +5,7 @@ Abstraction d'une pizza et les différents type concrêts de pizzas.
 """
 
 
-class Pizza(object):
+class Pizza:
     """ Classe abstraite d'une pizza.
 
     :param nom: la nom de la pizza.

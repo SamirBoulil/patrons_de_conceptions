@@ -4,6 +4,13 @@ from boisson import CafeNoir
 from condiment_decorateur import Chantilly
 
 
+"""
+Decorator pattern: The decorator pattern attaches additionnal responsibilities
+to an object dynamically. Decorators provide flexible alternative to subclassing
+for extending functionnality.
+"""
+
+
 def main():
     """ Implémentation du patron de conception décorateur
     Des cafés et des condiments.

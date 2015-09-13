@@ -1,13 +1,13 @@
 # coding: utf-8
 
-from pizza_ingredients_factory import AllemagnePizzaIngredientFactory
-from pizza_ingredients_factory import NYCPizzaIngregientFactory
-
-
 """
 Abstract factory pattern: Provides an interface for creating families of related
 or depedent objects without specifying their concrete classes.
 """
+
+
+from pizza_ingredients_factory import AllemagnePizzaIngredientFactory
+from pizza_ingredients_factory import NYCPizzaIngregientFactory
 
 
 def main():

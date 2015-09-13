@@ -1,10 +1,16 @@
 # coding: utf-8
 
+
 """Implémentation du patron de conception methode factory
 
 Le but est de crééer et de préparer des pizzas de différents types
 à l'aide d'une factory.
+
+Factory method pattern: Provides an interface for creating an object, but let
+sublasses decide which class to instanciate. Factory method let's a class defer
+instanciation to the subclasses.
 """
+
 
 from magasin_pizza import MagasinPizza
 

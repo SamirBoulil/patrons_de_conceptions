@@ -1,9 +1,10 @@
 # coding: utf-8
 
-from col_vert import ColVert
-from poule import Poule
-from vole_ailes import VoleAiles
-from queuk import Queuk
+from canard import ColVert
+from canard import Poule
+
+from vole_comportement import VoleAiles
+from quack_comportement import Queuk
 
 
 def main():

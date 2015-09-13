@@ -1,6 +1,13 @@
 # coding: utf-8
 
 
+from quack_comportement import Queuk
+from quack_comportement import Quick
+
+from vole_comportement import VoleAiles
+from vole_comportement import VoleNon
+
+
 class Canard(object):
     """Un cannard peut faire quack, voler et nager."""
 
@@ -18,3 +25,17 @@ class Canard(object):
     def nage(self):
         """Un canard sait nager"""
         print("Je nage...")
+
+
+class ColVert(Canard):
+
+    def __init__(self):
+        self.vole_comportement = VoleAiles()
+        self.quack_comportement = Quick()
+
+
+class Poule(Canard):
+
+    def __init__(self):
+        self.vole_comportement = VoleNon()
+        self.quack_comportement = Queuk()

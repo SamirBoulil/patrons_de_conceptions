@@ -1,5 +1,13 @@
 # coding: utf-8
 
+
+"""
+Strategy pattern: Defines a family of algorithm, encapsulates each one and make
+then interchangeable. Strategy let's the algorithm vary independently from the
+clients that use it.
+"""
+
+
 from canard import ColVert
 from canard import Poule
 

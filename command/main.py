@@ -6,6 +6,10 @@ Implementation of the command design pattern : Encapsulate requests in objects.
 
 a remote control that can has inputs to send On actions and Off actions.
 It has 10 of each and they are able to control Lights or GarageDoor.
+
+Command pattern: Encapsulates a request as an object, thereby letting you
+parametize clients with diffrents requests, queue or log requests, and support
+undoable operations.
 """
 
 

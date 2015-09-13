@@ -4,6 +4,12 @@ from pizza_ingredients_factory import AllemagnePizzaIngredientFactory
 from pizza_ingredients_factory import NYCPizzaIngregientFactory
 
 
+"""
+Abstract factory pattern: Provides an interface for creating families of related
+or depedent objects without specifying their concrete classes.
+"""
+
+
 def main():
     """ Different pizza store locations
     delivering different versions of the same pizzas.

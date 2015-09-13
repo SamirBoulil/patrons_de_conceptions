@@ -1,7 +1,7 @@
 # coding: utf-8
 
-from cafe_noir import CafeNoir
-from chantilly import Chantilly
+from boisson import CafeNoir
+from condiment_decorateur import Chantilly
 
 
 def main():
@@ -12,7 +12,7 @@ def main():
     my_cafe_chantilly = Chantilly(CafeNoir())
 
     print("prix de mon cafe : {prix}".format(prix=str(my_cafe.prix())))
-    print("prix de mon cafe chantilly : {prix}" \
+    print("prix de mon cafe chantilly : {prix}"
           .format(prix=str(my_cafe_chantilly.prix())))
 
 

@@ -12,3 +12,14 @@ class Boisson(object):
         :returns: le prix de la boisson
         """
         raise NotImplementedError
+
+
+class CafeNoir(Boisson):
+    """Un cafe noir bien chaud
+    """
+
+    def __init__(self):
+        self.description = "Cafe noir"
+
+    def prix(self):
+        return 1.5

@@ -16,3 +16,13 @@ class CondimentDecorateur(Boisson):
     def description(self):
         return " + {description_boisson}" \
             .format(description_boisson=self.boisson.description)
+
+
+class Chantilly(CondimentDecorateur):
+    """ Une boule de chantilly par dessus hummmm...
+    """
+
+    description = "Chantilly"
+
+    def prix(self):
+        return .99 + self.boisson.prix()
